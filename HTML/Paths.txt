@@ -1,0 +1,15 @@
+Paths is a location of a files,images,doc,etc,,
+A specifi Loaction is a Paths
+Paths are two types 
+1. Abosalute Paths : 
+ex: <img src="C:\users\Desctop|entryimages\Entry.jpg">
+2. Realative path :
+ex1:- <img src="Entry.jpg"> {same folder on the image}
+ex2:- <img src="/images/Entry.jpg"> {Current code file and image folder inside images}
+ex2:- <img src="../Entry.jpg"> images folder and image one level up, folder is one level up wherer is file in present
+
+Pathd are used
+1 images
+CSS Style sheets
+External Links
+Links
