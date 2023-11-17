@@ -1,0 +1,11 @@
+CSS Case casecading style sheet
+where to write css code
+1. In the HTML file
+2.  Out side the html file  
+Syntax
+===========================
+selector{
+    Proprty1 : Value1;
+    Proprty2 : Value2;
+    Proprty3 : Value3 ;
+}
