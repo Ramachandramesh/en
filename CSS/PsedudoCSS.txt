@@ -45,3 +45,6 @@ Prop : Val;
 Prop : Val;
 
 }
+
+If you wants to more 
+developer.mozilla.org/en-us/does.web/css/pseudo_class
