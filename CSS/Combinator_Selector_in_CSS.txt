@@ -1,0 +1,31 @@
+1. Descendent Selectors
+div h1{
+
+Prop ; Value;
+
+}
+
+2. Child Selectors
+div > p{
+
+Prop ; Value;
+
+}
+
+3. Adjacent sibling selector :- Only next sibling
+
+p+h1{
+
+Prop ; Value;
+
+}
+
+4. Genaral Sibling Selector :- Just Sibling ok
+
+p-h1{
+
+Prop ; Value;
+
+}
+
+
