@@ -1,0 +1,35 @@
+Simple Selectors CSS Universally Usedthis
+1. With ID
+#id{
+
+    Prop ; Value;
+}
+
+2. With Class
+.class{
+
+    Prop ; Value;
+}
+
+3. With All *
+*{
+
+Prop ; Value;
+
+}
+
+4. With Element
+
+h1{
+
+Prop ; Value;
+
+}
+ 
+ or
+
+ p{
+
+Prop ; Value;
+
+ }
