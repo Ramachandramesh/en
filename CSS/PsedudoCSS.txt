@@ -1,0 +1,47 @@
+It is work on behaviour
+1. input:checked{
+    Prop : Val;
+}
+
+2. div:empt{
+
+Prop : Val;    [In div no elelements that time this worked]
+
+}
+
+3. a:hover{
+
+Prop : Val;
+
+}
+
+4. a:visited{
+
+Prop : Val;
+
+}
+
+5. a:active{
+
+Prop : Val;
+
+}
+
+6. a:deactive{
+
+Prop : Val;
+
+}
+
+7. p:first-child {
+
+Prop : Val;
+
+}
+
+
+7. p:last-child {
+
+Prop : Val;
+
+}
