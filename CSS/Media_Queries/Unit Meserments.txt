@@ -1,0 +1,11 @@
+Units in CSS
+Mesurements including properties
+we are refering to 
+-----> doveloper.morzilla.org is available or MDN doc
+1. cm centimeters 1cm=37.8px = 25.2/64 in  ---------imp
+2. mm milimeters 1mm = 1/10th of 1cm       ---------imp
+3.Q quater-millimetrs 1Q=1/40th of 1cm
+4. in inches 1in=2.54cm=96px
+5. pc picas 1pc=1/6th of1in
+6.pt points 1pt=1/72nd of 1in
+7.px pixels 1px=1/96th of 1in             ---------imp

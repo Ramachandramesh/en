@@ -1,0 +1,12 @@
+Styling
+
+1. inline
+2. Classes, ids
+3.Element
+
+Priarity of Styling order
+1. inline
+2. ids
+3. Classes
+4.Element
+
