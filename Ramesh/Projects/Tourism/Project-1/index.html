@@ -10,7 +10,8 @@
 
     <title>Mana Tourism</title>
   </head>
-  <body>
+  <body style="background-color: black;">
+    <!--Nav bar start-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Mana Tour</a>
@@ -30,14 +31,16 @@
                 <a class="nav-link disabled">Contact Us</a>
               </li>
             </ul>
-            <form class="d-flex">
+             <form class="d-flex">
              
               <button class="btn btn-outline-success" type="submit">Login/Sign Up</button>
             </form>
           </div>
         </div>
       </nav>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <!--Nav bar end-->
+      <!--Carousel start-->
+      <div id="carouselExampleControls" class="carousel slide mb-4 br-4 mx-4" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img (3).jpg" class="d-block w-100" alt="flight" style="height: 400px;">
@@ -58,6 +61,127 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!--Carousel end-->
+      <!-- Card-1 Start-->
+      <div class="card m-3">
+        <div class="card-header">
+          Featured
+        </div>
+        <!-- Card-1 End-->
+      <!--Form Layout Start -->
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="forminput" class="form-label">Form</label>
+            <input type="text" class="form-control" id="fromInput" placeholder="From Location">
+          </div>
+          <div class="col-md-6">
+            <label for="inputTo" class="form-label">To</label>
+            <input type="text" class="form-control" id="inputTO" placeholder="To Location">
+          </div>
+          <div class="col-12">
+            <label for="inputDate" class="form-label">Date</label>
+            <input type="date" class="form-control" id="inputAddress" placeholder="Travel date">
+          </div>
+          <div class="col-md-6">
+            <label for="inputnumberofpassenger" class="form-label">Number Of Passenger</label>
+            <input type="number" class="form-control" id="inputnumberofpassenger" placeholder="000">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Mode</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>Flight</option>
+              <option>Train</option>
+              <option>Bus</option>
+              <option>Walk</option>
+            </select>
+          </div>
+         
+         
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary m-4">Check Options</button>
+          </div>
+        <!--Form Layout End-->
+        <!--Card Start-->
+        <div class="row mb-3">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div><div class="row mb-3">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Card End-->
+<!--External Start-->
+<div class="my-3 p-3 bg-body rounded shadow-sm m-4">
+  <h6 class="border-bottom pb-2 mb-0">Latest Updates</h6>
+  <div class="d-flex text-body-secondary pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
+        <strong class="text-gray-dark">Full Name</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@username</span>
+    </div>
+  </div>
+  <div class="d-flex text-body-secondary pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
+        <strong class="text-gray-dark">Full Name</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@username</span>
+    </div>
+  </div>
+  <div class="d-flex text-body-secondary pt-3">
+    <svg class="bd-placeholder-img flex-shrink-0 me-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 32x32" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#007bff"></rect><text x="50%" y="50%" fill="#007bff" dy=".3em">32x32</text></svg>
+    <div class="pb-3 mb-0 small lh-sm border-bottom w-100">
+      <div class="d-flex justify-content-between">
+        <strong class="text-gray-dark">Full Name</strong>
+        <a href="#">Follow</a>
+      </div>
+      <span class="d-block">@username</span>
+    </div>
+  </div>
+  <small class="d-block text-end mt-3">
+    <a href="#">All suggestions</a>
+  </small>
+</div>
+<!--External End-->
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
