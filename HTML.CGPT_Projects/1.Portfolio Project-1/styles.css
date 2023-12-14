@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2px;
+    padding: 2px;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header, nav, main, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+header h1 {
+    margin: 0;
+}
+nav a {
+    color: #ff27f4a8;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+nav a:hover {
+    background-color: #6e2626;
+}
+section {
+    margin-bottom: 2em;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+footer {
+    text-align: center;
+}

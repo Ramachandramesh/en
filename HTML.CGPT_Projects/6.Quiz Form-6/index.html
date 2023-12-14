@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey or Quiz Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Survey or Quiz</h1>
+    </header>
+
+    <section>
+        <form id="surveyForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+                <legend>Favorite Subject:</legend>
+                <label><input type="radio" name="subject" value="math"> Math</label>
+                <label><input type="radio" name="subject" value="science"> Science</label>
+                <label><input type="radio" name="subject" value="history"> History</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rate your experience:</legend>
+                <label><input type="radio" name="experience" value="excellent"> Excellent</label>
+                <label><input type="radio" name="experience" value="good"> Good</label>
+                <label><input type="radio" name="experience" value="average"> Average</label>
+                <label><input type="radio" name="experience" value="poor"> Poor</label>
+            </fieldset>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Survey or Quiz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
