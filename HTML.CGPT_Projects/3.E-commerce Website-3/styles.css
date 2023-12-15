@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e750;
+}
+header {
+    background-color: #666;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.product {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(253, 101, 101, 0.1);
+    text-align: center;
+}
+#raw {
+
+    background-color: #8684e6;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(253, 101, 101, 0.1);
+    text-align: center;
+
+}
+button{
+    color: white;
+    background-color: green;
+    padding: 5px;
+}
