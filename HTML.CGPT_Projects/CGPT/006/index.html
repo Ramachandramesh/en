@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> LRSS Survey or Quiz Form</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Survey/Quiz Form</title>
 </head>
 <body>
     <div class="form-container">
-        <h1>LRSS Survey&Quiz Form</h1>
+        <h1>Survey/Quiz Form</h1>
         <form id="survey-form">
             <div class="question">
                 <label for="name">1. Your Name:</label>
                 <input type="text" id="name" name="name" required>
             </div>
+
             <div class="question">
                 <label for="age">2. Your Age:</label>
                 <input type="number" id="age" name="age" required>
             </div>
+
             <div class="question">
                 <p>3. Your Gender:</p>
                 <label>
                     <input type="radio" name="gender" value="male"> Male
                 </label>
                 <label>
-                    <input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="female"> Female
                 </label>
                 <label>
-                    <input type="radio" name="gender" value="others"> others
+                    <input type="radio" name="gender" value="other"> Other
                 </label>
-                </div>
-                 <div class="question">
+            </div>
+
+            <div class="question">
                 <p>4. How satisfied are you with our services?</p>
                 <select name="satisfaction" required>
                     <option value="" disabled selected>Select your option</option>
@@ -39,9 +42,9 @@
                     <option value="neutral">Neutral</option>
                     <option value="unsatisfied">Unsatisfied</option>
                     <option value="very-unsatisfied">Very Unsatisfied</option>
-                    <option value="ramachandramesh"> Ramachandramesh</option>
                 </select>
             </div>
+
             <div class="question">
                 <p>5. Additional Comments:</p>
                 <textarea name="comments" rows="4"></textarea>
@@ -50,6 +53,5 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-    
 </body>
 </html>
