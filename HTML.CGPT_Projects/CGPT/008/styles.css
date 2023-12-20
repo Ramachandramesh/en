@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.recipe {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.recipe h2 {
+    color: #333;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.recipe .ingredients, .recipe .instructions {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.recipe ul, .recipe ol {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.recipe li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+

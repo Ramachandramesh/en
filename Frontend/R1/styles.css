@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cta{
+  display: flex;
+  justify-content: space-around;
+}
+.result {
+  text-align: center;
+  border: 2px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+}
