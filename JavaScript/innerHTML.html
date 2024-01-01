@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner_HTML</title>
+    <style>
+        h1{
+            background-color: bisque;
+            color: blue;
+        }
+        p{
+            background-color: rgb(235, 230, 225);
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heding">Inner HTML Lecture</h1>
+    <p id="para">Hellow World!!!</p>
+    <script>
+       const a = document.getElementById("heding")
+       // a.innerHTML = "Innerhtml Lecture";
+        a.innerHTML = a.innerHTML + "innerhtml Leture RRR";
+        document.getElementById("para").innerHTML = "Change Content Ramesh";
+        //Here we can change content and paras text chnges used it innerhtml code
+    </script>
+</body>
+</html>
