@@ -1,0 +1,13 @@
+ES6 Introduction :- Ecoma Script6
+=================
+It is a One update. Major update
+Ecoma Script6 is ES6, 2015 Relase
+New Features
+============
+1. Arrow function
+2. Template Literals
+3. Let & Const
+4. Destructring 1. Array D.S
+             2. Objects D.S
+5. Clasess
+6. Promises :-(Async/await)

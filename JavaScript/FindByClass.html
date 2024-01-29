@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find The Element By Class Name</title>
+</head>
+<body>
+    <h2 class="hello">Hello World</h2>
+    <p class="hello">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore magni, atque doloribus exercitationem, doloremque dolorem deleniti est maiores molestias omnis earum minus nam sapiente. Sunt iure quis illo vero.</p>
+    
+    <script>
+        const a = document.getElementsByClassName("hello");
+        //alert(a); //[object HTMLCollection]
+        //alert(a[0]); //[object HTMLHeadingElement]
+        alert(a[1]); //[object HTMLParagraphElement]
+    </script>
+
+</body>
+</html>

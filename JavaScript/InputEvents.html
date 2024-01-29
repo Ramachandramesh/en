@@ -1,0 +1,55 @@
+<!--
+Input Events In JS
+1. Onblur - When a user leaves input field trying
+2. Onfocuse - When user changed - Trying
+3. Onselect - 
+4. Onsubmit - 
+5. Onreset -
+6. keydown -
+7. keyup -
+8. keypress -
+
+=======================================================
+Mouse Events In JS
+1. Onmouseover -
+2. Onmousedown - when we are click
+3. Onmouseup - 
+4. Onmousemove - when image move
+5. Onmouseout -  when image out
+=======================================================
+Click Events in JS
+1. Onclick 
+2. Ondblclick (On double click)
+=======================================================
+Load Events in JS
+1. Onload
+2. Onerror
+3. Onunload
+4. Onresize
+
+Events Examples In JavaScripts
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Examples in JS</title>
+    <script>
+        function clicker(){
+            const a = document.getElementById("para");
+            a.innerHTML = a.innerHTML +  "The Button is clicked "; 
+        }
+    </script>
+</head>
+<body>
+    <h1>Events Examples in JS</h1>
+   <!-- <button onclick="clicker()">Click Here!!!</button>
+    <p id="para"></p> -->
+    
+    <button ondblclick="clicker()">Click Here!!!</button>
+    <p id="para"></p>
+    
+</body>
+</html>
